@@ -41,3 +41,41 @@ font-size: 100px;
     font-size: 40px;
     margin: 50px;
 }
+
+
+/* Quiz Pages */
+
+#quiz {
+    height: 100vh;
+    background-color: #FFCAD4;
+}
+
+.backRect {
+    width:80vw;
+    height:80vh;
+    position: relative;
+    top: 5vh;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 40px;
+}
+
+.quizNumber {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F4ACB7;
+    position: relative;
+    left: 31vw;
+    top: -11vh;
+    
+}
+
+.num {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 180px;
+    position: relative;
+    top: -9vh;
+    left: -0.5vw;
+    color: #9D8189;
+}
