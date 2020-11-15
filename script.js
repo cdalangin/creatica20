@@ -16,7 +16,7 @@ let questions = [
         choice2: 'Entree',
         choice3: 'Dessert',
         choice4: 'Drink',
-        // choice5: "item",
+        choice5: "Salad",
         // choice6: "item",
         top: "1",
         picURL: "./assets/cupcake.png",
@@ -34,15 +34,26 @@ let questions = [
         picURL: "./assets/clock.png",
     },
     {
-        question: 'What equipment do you have?',
+        question: 'How much ingredients do you have?',
+        choice1: 'Full Pantry',
+        choice2: 'Average Amount',
+        choice3: 'Low on Supplies',
+        // choice4: 'Toaster',
+        // choice5: "No preference",
+        // choice6: "item",
+        top: "3",
+        picURL: "./assets/ingredients.png",
+    },
+    {
+        question: 'What equipment do you want to use?',
         choice1: 'Stove',
         choice2: 'Microwave',
         choice3: 'Oven',
         choice4: 'Toaster',
         choice5: "No preference",
         // choice6: "item",
-        top: "3",
-        picURL: "./assets/cupcake.png",
+        top: "4",
+        picURL: "./assets/equipment.png",
     },
     {
         question: 'Any Dietary Restrictions?',
@@ -53,7 +64,7 @@ let questions = [
         choice5: "Gluten Free",
         choice6: "Halal",
         choice7: "None",
-        top: "4",
+        top: "5",
         picURL: "./assets/allergies.png",
     },
     {
@@ -65,12 +76,12 @@ let questions = [
         choice5: "Wheat",
         choice6: "Eggs",
         choice7: "None",
-        top: "5",
-        picURL: "./assets/allergies.png",
+        top: "6",
+        picURL: "./assets/eggs.png",
     },
 ]
 
-const max_questions = 6
+// const max_questions = 6
 
 startQuiz = () => {
     // questionCounter = 0

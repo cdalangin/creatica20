@@ -5,6 +5,25 @@ body {
     overflow: hidden; /* Hide scrollbars */
   }
 
+.aboutIcon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 20px;
+}
+
+.aboutIcon:hover {
+    cursor: pointer;
+    opacity: 0.50;
+}
+
+.modalTitle {
+    color: #9D8189; 
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+}
+
 #landing {
     height: 100vh;
     background-color:#F7EDE2;
@@ -175,10 +194,6 @@ body {
     border-color: #f4acb72a;
     border-radius: 20px;
 }
-
-/* .resultsimg:hover {
-    
-} */
 
 .resultsgroup {
     display: flex;
