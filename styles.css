@@ -39,17 +39,18 @@ body {
 }
 
 .title {
-color: #F4ACB7;
-font-family: "Montserrat";
-font-weight: 900;
-font-size: 100px;
+    color: #DF8190;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
 }
 
 .desc {
-    color: #F4ACB7;
+    color: #B07B8B;
     font-family: "Fira Sans";
-    font-size: 40px;
-    margin: 50px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 
@@ -80,6 +81,11 @@ font-size: 100px;
     
 }
 
+.rowElement {
+    position: relative;
+    top: -50px;
+}
+
 .num {
     font-family: "Fira Sans";
     font-weight: 400;
@@ -106,22 +112,24 @@ font-size: 100px;
     
 }
 
-.choices {
+/* .choices {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
 
 .choice-container {
     background-color:#D8E2DC;
     border: none;
     color: #9D8189;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    display: inline-block;
     font-family: "Fira Sans";
-    font-size: 20px;
-    margin: 13px 10px;
+    font-size: 25px;
+    padding: 7px 70px;
+    margin: 10px 8px;
     border-radius: 80px;
 }
 

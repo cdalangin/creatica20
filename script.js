@@ -68,7 +68,6 @@ getNewQuestion = () => {
     topNum.innerHTML = currentQuestion.top;
     graphic.src = currentQuestion.picURL;
 
-
     choices.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
