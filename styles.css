@@ -90,6 +90,14 @@ font-size: 100px;
     color: #9D8189;
 }
 
+#qGraphic {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: -40px;
+    left: -170px;
+}
+
 #question {
     font-family: "Montserrat";
     font-weight: 900;
