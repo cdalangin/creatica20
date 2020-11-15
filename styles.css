@@ -15,9 +15,9 @@ body {
 }
 
 .leggo {
-    background-color:#D8E2DC;
+    background-color:#F4ACB7;
     border: none;
-    color: #9D8189;
+    color: #F7EDE2;
     padding: 10px 80px;
     text-align: center;
     text-decoration: none;
@@ -26,6 +26,16 @@ body {
     font-size: 40px;
     margin: 4px 2px;
     border-radius: 80px;
+    text-decoration: none;
+}
+
+.leggo:hover {
+    cursor: pointer;
+    background-color:#FFCAD4;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 40px;
+
 }
 
 .title {
@@ -78,4 +88,37 @@ font-size: 100px;
     top: -9vh;
     left: -0.5vw;
     color: #9D8189;
+}
+
+#question {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 30px;
+    color: #9D8189;
+    
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.choice-container {
+    background-color:#D8E2DC;
+    border: none;
+    color: #9D8189;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    margin: 13px 10px;
+    border-radius: 80px;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    background-color:#d8e2dcc2;
+    color: #9d8189af;
 }
