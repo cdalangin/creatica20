@@ -97,10 +97,10 @@ body {
 }
 
 #qGraphic {
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     position: relative;
-    top: -40px;
+    top: -30px;
     left: -170px;
 }
 
@@ -112,10 +112,9 @@ body {
     
 }
 
-/* .choices {
+/* .selections {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
 } */
 
 .choice-container {
@@ -127,8 +126,8 @@ body {
     justify-content: center; */
     display: inline-block;
     font-family: "Fira Sans";
-    font-size: 25px;
-    padding: 7px 70px;
+    font-size: 22px;
+    padding: 7px 60px;
     margin: 10px 8px;
     border-radius: 80px;
 }
