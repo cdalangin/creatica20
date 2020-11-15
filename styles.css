@@ -49,6 +49,7 @@ body {
 .desc {
     color: #B07B8B;
     font-family: "Fira Sans";
+    font-weight: 300;
     font-size: 20px;
     margin: 10px;
 }
@@ -136,4 +137,94 @@ body {
     cursor: pointer;
     background-color:#d8e2dcc2;
     color: #9d8189af;
+}
+
+/* Results Page */
+
+#results {
+    background-color:#D8E2DC;
+    height: 100vh;
+}
+
+.resultsRect {
+    width:90vw;
+    height:90vh;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 40px;
+}
+
+.resultTitle {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 70px;
+    color: #9D8189;
+}
+
+.resultSubtitle {
+    font-family: "Fira Sans";
+    font-weight: 500;
+    font-size: 30px;
+    color: #F4ACB7;
+}
+
+.resultsimg {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f4acb72a;
+    border-radius: 20px;
+}
+
+/* .resultsimg:hover {
+    
+} */
+
+.resultsgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultslink {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #F4ACB7;
+    font-size: 33px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.resultslink:hover {
+    text-decoration: none;
+    color: #f1cad0;
+}
+
+.credit {
+    margin-top: 10px;
+    color: #9D8189;
+    font-size: 13px;
+}
+
+.startOver {
+    position: absolute;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.startOver:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255);
+}
+
+.leftimg {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    left: 15px;
 }

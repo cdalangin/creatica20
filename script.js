@@ -54,7 +54,7 @@ let questions = [
         choice6: "Halal",
         choice7: "None",
         top: "4",
-        picURL: "./assets/allergy.png",
+        picURL: "./assets/allergies.png",
     },
     {
         question: 'Any Allergies?',
@@ -66,7 +66,7 @@ let questions = [
         choice6: "Eggs",
         choice7: "None",
         top: "5",
-        picURL: "./assets/allergy.png",
+        picURL: "./assets/allergies.png",
     },
 ]
 
